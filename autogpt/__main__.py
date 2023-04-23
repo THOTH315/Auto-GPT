@@ -1,4 +1,6 @@
-"""Auto-GPT: A GPT powered AI Assistant"""
+from dotenv import load_dotenv
+load_dotenv()
+
 import autogpt.cli
 
 if __name__ == "__main__":
